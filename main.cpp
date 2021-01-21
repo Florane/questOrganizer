@@ -125,8 +125,6 @@ int main()
                 attron(COLOR_PAIR(color));}
 
                 mvprintw(i,0,quests[sortReference[i]].name.c_str());
-                printw(" ");
-                printw(std::to_string(quests[sortReference[i]].layer).c_str());
 
                 if(color != 1) {
                 attroff(COLOR_PAIR(color));
